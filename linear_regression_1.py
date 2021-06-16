@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
 # Method 5(Using Pandas)
 
-df = pd.read_csv("\datasets\data_1d.csv", header=None)
+df = pd.read_csv('datasets\data_1d.csv', header=None)
 # df.plot.scatter(df.loc[:, 0], df.loc[:, 1])
 X = df.loc[:, 0].values
 Y = df.loc[:, 1].values
